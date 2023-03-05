@@ -25,7 +25,7 @@ async function loginController(req, res) {
         // // Send the token to the client
         // res.json({ token });
 
-        res.status(200).json({message: 'Endpoint works!'})
+        res.status(200).json({ message: 'Endpoint works!' });
     } catch (error) {
         // Handle any errors that occur during login
         console.error(error);
@@ -33,4 +33,4 @@ async function loginController(req, res) {
     }
 }
 
-export default loginController
+export default loginController;
