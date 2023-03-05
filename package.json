@@ -19,7 +19,8 @@
   },
   "homepage": "https://github.com/Ferri0/peak-flow-app-be#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.21"
